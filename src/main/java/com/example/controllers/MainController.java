@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MainController {
 
-    @GetMapping("/main")
+    @GetMapping("https://frilance-project-1-a1tnc164j-fantom-it.vercel.app/")
     public String main() {
         return "main.html";
     }
 
-    @PostMapping("/main")
+    @PostMapping("https://frilance-project-1-a1tnc164j-fantom-it.vercel.app/")
     public String mainp(@RequestParam String value) {
         String value_p = value;
         System.out.println(value_p);
