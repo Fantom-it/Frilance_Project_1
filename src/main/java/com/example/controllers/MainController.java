@@ -13,6 +13,13 @@ public class MainController {
         return "main.html";
     }
 
+    @PostMapping("/main")
+    public String mainp(@RequestParam String value) {
+        String value_p = value;
+        System.out.println(value_p);
+        return "rating_best.html";
+    }
+
   //  @PostMapping("/main")
   //  public String search(@RequestParam String value) {
   //      System.out.println(value);
@@ -48,11 +55,5 @@ public class MainController {
     public String ratings() {
         return "ratings.html";
     }
-
-    @GetMapping("/rating-best")
-    public String rating_best() {
-        return "rating-best.html";
-    }
-
 
 }

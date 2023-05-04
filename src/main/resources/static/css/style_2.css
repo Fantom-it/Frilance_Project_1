@@ -15,6 +15,7 @@
     border-radius: 3px;
     font-size: 18px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 
@@ -282,7 +283,7 @@
 
 .container6-v2__item {
     color: #000;
-    padding: 10px 55px 14px 13px;
+    padding: 14px 55px 14px 13px;
     background: #DFDFDF;
     border-radius: 3px;
     font-size: 18px;
@@ -311,13 +312,41 @@
 }
 
 .container-12 {
-    width: 1162px;
-    margin-top: 75px;
-    margin-left: 160px;
+   width: 1200px;
+   margin-left: 160px;
+   font-size: 17px;
+   font-weight: 400;
+   line-height: 24.5px;
+   margin-top: 5px;
 }
 
 .item__onlinesport {
     font-size: 30px;
+    font-weight: 600;
+}
+
+.container-12__item {
+
+}
+
+.container-12__item::after {
+    content: url(../img/Слой_x0020_1.svg);
+    margin-left: -1px;
+    margin-top: 3px;
+}
+
+.container-12__item-1 {
+
+}
+
+.container-12__item-3 {
+
+}
+
+.container-12__item-3::after {
+    content: url(../img/Слой_x0020_1.svg);
+    margin-left: -2px;
+    margin-top: 3px;
 }
 
 .container-13 {
@@ -333,12 +362,6 @@
     position: absolute;
     margin-left: 377px;
     margin-top: 25px;
-}
-
-.container-12__item-1 {
-    font-size: 17px;
-    font-weight: 400;
-    margin-top: 5px;
 }
 
 .ccontainer-12__div-2 {
@@ -358,6 +381,7 @@
 .container-12__item-2 {
     font-size: 17px;
     font-weight: 400;
+    line-height: 24.5px;
     margin-top: 15px;
 }
 

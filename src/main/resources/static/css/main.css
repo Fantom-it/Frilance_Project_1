@@ -5,15 +5,16 @@
 .form__input-main {
     margin-top: 23px;
     margin-left: 1390px;
-    width: 334px;
+    width: 370px;
     height: 24px;
     border: none;
     outline: none;
     color: #000000;
     background: #D0D0D0;
     border-radius: 10px;
-    padding: 18px 18px;
+    padding: 30px 18px;
     font-size: 18px;
+    font-weight: 600;
 }
 
 .form__button-main {
@@ -40,4 +41,29 @@
     height: 312px;
     margin-top: 30px;
     background: #fff;
+}
+
+.item__main-1 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 160px;
+}
+.item__main-2 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.container-9-main {
+    margin-top: 1600px;
+    margin-left: 1391px;
+}
+
+.item__applications_bookmakers-main {
+    margin-top: 1530px;
+    margin-left: 1391px;
 }

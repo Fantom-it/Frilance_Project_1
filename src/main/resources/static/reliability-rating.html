@@ -24,26 +24,25 @@
 
 <header class="header">
 
-  <div>
-    <img class="header__logo" src="img/Group 4.svg">
-  </div>
+  <a href="/main">
+    <div>
+      <img class="header__logo" src="img/Group 4.svg">
+    </div>
+  </a>
+
 
   <nav class="header__nav">
-
-
 
     <ul class="header__list">
 
       <div class="dropdown">
 
         <li class="header__item">
-          <a class="header__linkr" href="#">
+          <a onclick="myFunction()" class="header__linkr" href="/ratings">
             Рейтинги
           </a>
           <img class="header__logo2" src="img/arrow.svg">
         </li>
-
-
 
         <div id="myDropdown" class="dropdown-content">
           <a href="/rating_best">Рейтинг лучших</a>
@@ -57,11 +56,10 @@
 
       </div>
 
-
       <div class="dropdownv2">
 
         <li class="header__item">
-          <a class="header__link" href="#" style="margin-left: 19px;">Прогнозы </a>
+          <a class="header__link" href="/forecasts" style="margin-left: 19px;">Прогнозы </a>
           <img class="header__logo3" src="img/arrow.svg">
         </li>
 
@@ -75,14 +73,14 @@
 
       </div>
 
-      <li class="header__item"><a class="header__link" href="#" style="margin-left: 21px;">Приложения</a></li>
-      <li class="header__item"><a class="header__link" href="#" style="margin-left: 2px;">Бонусы</a></li>
-      <li class="header__item"><a class="header__link" href="#" style="margin-left: 2px;">Агентство</a></li>
+      <li class="header__item"><a class="header__link" href="/applications" style="margin-left: 21px;">Приложения</a></li>
+      <li class="header__item"><a class="header__link" href="/bonuses" style="margin-left: 2px;">Бонусы</a></li>
+      <li class="header__item"><a class="header__link" href="/agency" style="margin-left: 2px;">Агентство</a></li>
 
       <div class="dropdownv3">
 
         <li class="header__item">
-          <a class="header__link" href="#" style="margin-left: 9px;">База знаний</a>
+          <a class="header__link" href="/base" style="margin-left: 9px;">База знаний</a>
           <img class="header__logo3" src="img/arrow.svg">
         </li>
 
@@ -233,7 +231,7 @@
     <p class="container4-rating__circle-number">3</p>
   </div>
 
-  <img src="img/bookmakers/leon.svg" alt="" class="container4-rating__img-bk">
+  <img src="img/bookmakers/leon.png" alt="" class="container4-rating__img-bk">
 
   <div class="container4-rating__bonus">
     <p class="container4-rating__bonus__item">Бонус 10000 руб.</p>

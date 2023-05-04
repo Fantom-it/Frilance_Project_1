@@ -8,7 +8,7 @@ public class RatingsController {
 
     @GetMapping("/rating_best")
     public String rating_best() {
-        return "rating-best.html";
+        return "rating_best.html";
     }
 
     @GetMapping("/reliability_rating")

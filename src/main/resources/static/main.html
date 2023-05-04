@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style_2.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/rating-best.css">
+    <link rel="stylesheet" href="css/ratings.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/Слой_x0020_1.svg" type="image/svg">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,6 +79,8 @@
                         <a href="#">Баскетбол</a>
                         <a href="#">Теннис</a>
                         <a href="#">Единоборства</a>
+                        <a href="#">MMA</a>
+                        <a href="#">Поп-MMA</a>
                     </div>
 
                 </div>
@@ -90,7 +97,7 @@
                     </li>
 
                     <div id="maDropdownv3" class="dropdownv3-contentv3">
-                        <a href="#">Стратегии</a>
+                        <a href="#">Академия беттинга</a>
                         <a href="#">Новости</a>
                         <a href="#">Обозначения</a>
                     </div>
@@ -117,9 +124,9 @@
             </svg>
         </div>
 
-        <form class="form">
-            <input type="text" name="value" class="form__input" placeholder="Введите поисковый запрос">
-            <button type="submit" class="form__button"></button>
+        <form class="form" action="/main" method="post">
+            <input class="form__input" type="text" name="value" placeholder="Введите поисковый запрос">
+            <button class="form__button" type="submit"></button>
         </form>
 
     </div>
@@ -211,14 +218,14 @@
         <a href="https://1xstavka.ru/" class="container4__item4">Сайт</a>
     </div>
 
-    <!-- <script src="javascript/main.js"></script>*/ -->
-
-    <div class="container6">
-        <p class="container6__item">Весь список</p>
-        <div class="arrow-1">
-            <div></div>
+    <a href="/ratings" style="text-decoration: none">
+        <div class="container6">
+            <p class="container6__item">Весь список</p>
+            <div class="arrow-1">
+                <div></div>
+            </div>
         </div>
-    </div>
+    </a>
 
     <p class="item__applications_bookmakers">Приложения букмекеров:</p>
 
@@ -423,14 +430,11 @@
     </div>
 
 
-    <div class="container-12">
+    <div class="container-12" style="margin-top: 80px;">
 
-        <p class="item__onlinesport">OnlineSport: букмекерские конторы и ставки на спорт онлайн</p>
+        <p class="item__onlinesport" style="font-wight:600">OnlineSport: букмекерские конторы и ставки на спорт онлайн</p>
 
-        <div class="container-13">
-            <p class="container-13__item">Как выбрать бк на рынке</p>
-            <img class="container-13__img" src="img/Слой_x0020_1.svg" alt="">
-        </div>
+        <p class="ratings-last-text-main-1" style="margin-top: 70px;">Как выбрать бк на рынке</p>
 
         <p class="container-12__item-1">
             Для того, чтобы каждый пользователь сайта смог легко и быстро выбрать самую лучшую для него букмекерскую контору на рынке,
@@ -457,10 +461,7 @@
             сразу после их получения, без отыгрыша. Однако, таких компаний очень мало на рынке и чаще всего полученный бонус надо отыграть по определённым условиям.
         </p>
 
-        <div class="container-12__div-2">
-            <p class="container-12__div-2__item">Беттинг-центр – для тех, кто любит ставки на спорт</p>
-            <img class="container-12__div-2__img" src="img/Слой_x0020_1.svg" alt="">
-        </div>
+        <p class="ratings-last-text-main-1">Беттинг-центр – для тех, кто любит ставки на спорт</p>
 
         <p class="container-12__item-2">
             В разделе беттинг-центра находится полная информация, которая может помочь беттерам заключать пари на спортивные состязания. Здесь можно найти календарь из всех спортивных событий,
